@@ -12,7 +12,7 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/contact", form);
+      const res = await axios.post("https://sathya-portfolio-b.onrender.com/api/contact", form);
       if (res.status === 200) {
         setStatus("Message sent successfully!");
         setForm({ name: "", email: "", message: "" });
