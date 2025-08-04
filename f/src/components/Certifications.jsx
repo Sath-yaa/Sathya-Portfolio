@@ -39,7 +39,7 @@ export default function Certifications() {
               <img
                 src={cert.image}
                 alt={cert.name}
-                className="w-full h-64 object-cover transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-110"
+                className="w-full h-48 sm:h-64 object-fit transform transition duration-500 ease-in-out hover:scale-105 hover:brightness-110"
               />
             </div>
             <div className="mt-4 text-gray-700 font-semibold text-sm sm:text-base">
